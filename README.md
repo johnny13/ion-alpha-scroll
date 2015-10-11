@@ -13,7 +13,7 @@ ion-alpha-scroll
 
 # Demo
 
-![Animated demo](https://github.com/aquint/ion-alpha-scroll/raw/master/demo.gif)
+![Animated demo](https://github.com/johnny13/ion-alpha-scroll/raw/master/demo.gif)
 
 # Installation
 
@@ -52,6 +52,14 @@ To display the properties of each item in the model, you can use the 'item' obje
 	  <div>Name: {{item.name}}</div>
 	  <div>Address: {{item.address}}</div>
 	</ion-alpha-scroll>
+```
+
+Options for setting up a custom config. 
+
+```html
+  <ion-alpha-scroll ng-model="contacts" key="dn" filter="searchPeeps" on-refresh="doRefresh()">
+    ...
+  </ion-alpha-scroll>
 ```
 
 Heres a quick example:
