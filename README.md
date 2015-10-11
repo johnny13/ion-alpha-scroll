@@ -74,9 +74,9 @@ angular.module('example.services', [])
   var contacts = [
   {
     id: 0,
-    name: 'Ben Sparrow',
-    address: '123 Fake St.'
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    name: 'Emily Kinney',
+    address: '123 Everywhere Cool St.'
+    face: 'https://raw.githubusercontent.com/johnny13/ion-alpha-scroll/master/demo/emily.png'
   }, {
     id: 1,
     name: 'Max Lynx',
