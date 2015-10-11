@@ -7,9 +7,10 @@
 .ion_alpha_sidebar{
 	position: fixed;
 	right: 0;
-	top: 0;
+	top: 100px;
 	height: 100%;
+    font-size:12px;
 }
 .ion_alpha_sidebar li{
-	line-height: 1.1;
+	line-height: 1.3;
 }
